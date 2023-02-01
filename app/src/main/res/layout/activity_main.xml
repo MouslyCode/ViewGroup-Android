@@ -25,6 +25,7 @@
             />
 
         <TextView
+            style="@style/TextContent.Small.White"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -39,7 +40,9 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Small"
             android:textColor="@android:color/white" />
         </FrameLayout>
-         <TextView
+
+        <TextView
+            style="@style/TextContent.Black"
                     android:layout_width="match_parent"
         	            android:layout_height="wrap_content"
                     android:textSize="32sp"
@@ -51,6 +54,7 @@
                     android:textColor="@android:color/black"/>
 
         <TextView
+            style="@style/TextContent.Subtitle"
         	            android:layout_width="match_parent"
         	            android:layout_height="wrap_content"
                     android:text="@string/stock"
@@ -60,6 +64,7 @@
         	            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
         <TextView
+            style="@style/TextContent"
         	            android:layout_width="match_parent"
         	            android:layout_height="wrap_content"
         	            android:text="@string/content_text"
@@ -67,8 +72,9 @@
         	            android:layout_marginRight="@dimen/activity_horizontal_margin"
         	            android:layout_marginBottom="@dimen/activity_vertical_margin"
         	            android:lineSpacingMultiplier="1"
-        	            android:textColor="@android:color/black"/>
+        	            />
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/specification"
@@ -93,6 +99,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -101,6 +108,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -117,6 +125,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -125,6 +134,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -141,6 +151,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -149,6 +160,7 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -157,7 +169,9 @@
                     android:textColor="@android:color/black"/>
             </TableRow>
         </TableLayout>
+
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dijual oleh"
@@ -183,6 +197,7 @@
                 android:src="@drawable/zolander" />
 
             <TextView
+                style="@style/TextContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/profile_image"
@@ -196,6 +211,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/buy"
+            style="@style/ButtonGeneral"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
